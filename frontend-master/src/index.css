@@ -1,0 +1,80 @@
+/* index.css */
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main container for currency exchange */
+.currency-exchange-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+/* Title styling */
+.currency-exchange-container h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Currency selectors (dropdowns) */
+.currency-selector select {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 100%;
+  max-width: 200px;
+}
+
+/* Currency amount input */
+.currency-amount {
+  margin-top: 10px;
+}
+
+.currency-amount input {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-right: 10px;
+}
+
+.currency-symbol {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Result container */
+.conversion-result {
+  margin-top: 20px;
+}
+
+.conversion-result p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}

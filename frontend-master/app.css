@@ -1,0 +1,102 @@
+/* App.css */
+.app {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #f0f4f7;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.amount-input, .currency-select {
+  padding: 10px;
+  font-size: 1rem;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.arrow {
+  font-size: 2rem;
+  margin: 0 10px;
+}
+
+.convert-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.convert-button:hover {
+  background-color: #45a049;
+}
+
+.converted-amount {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.currency-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.currency-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.currency-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.currency-flag {
+  width: 40px;
+  height: 30px;
+}
+
+.currency-details {
+  text-align: left;
+}
+
+.currency-value {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.trend-up {
+  color: green;
+}
+
+.trend-down {
+  color: red;
+}
+
+.history-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align: left;
+}
